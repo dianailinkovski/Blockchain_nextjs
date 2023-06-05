@@ -1,0 +1,240 @@
+.nav-link.block{
+    color:white ;
+}
+.dapp_header .nav-item a{
+    color:black !important;
+}
+.btn-dapp{
+    color:black !important;
+    background: #92CEE6 !important;
+    border-radius: 50rem !important;
+    padding-left:3.25rem ;
+    padding-right: 3.25rem;
+}
+.btn-dapp1{
+    color:white !important;
+    background: #92CEE6 !important;
+    border-radius: 50rem !important;
+    padding-left:3.25rem ;
+    padding-right: 3.25rem;
+}
+.btn_check_in{
+    color:white !important;
+    background: #7EC5E1 ;
+    border-radius: 50rem !important;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    /* padding:10px 32px; */
+}
+.btn_claim{
+    width:100%;
+    color:white !important;
+    background: #92CEE6 !important;
+    border-radius: 50rem !important;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.btn_success{
+    color:#459E1C;
+    background:#C9FFBC;
+    padding:5px 35px;
+}
+.btn_mint{
+    width:100%;
+    color:white;
+    background: #7EC5E1;
+    padding:5px ;
+    border-radius: 10px;
+}
+.btn_change{
+    color:black;
+    background:white;
+    width:100%; 
+    border-radius: 5px;
+}
+.btn_value{
+    color:black;
+    background:white;
+    width:100%;
+    border-radius: 5px;
+}
+.bonus_percent{
+    display:inline;
+    font-size:80px;
+    background: linear-gradient(118.5deg, #FF0000 -0.09%, #FFD600 20.82%, #00FF1A 41.74%, #001AFF 62.65%, #FF00F5 83.56%, #FF0000 104.48%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nft_airdrop{
+    color:white;
+    font-size: 40px;
+}
+.claim_card{
+    position: relative;
+}
+.baby_position{
+    position:absolute;
+    bottom:0px;
+    left: 0;
+    width:100%;
+}
+.banner_title{
+    color:white !important;
+}
+.banner_image{
+    /* background: url(../image/banner_background.svg) no-repeat; */
+    background-size: cover !important;
+    background-position: center !important;
+}
+.dapp_banner{
+    background-size: cover !important;
+    background-position: center !important;
+}
+.landing_token_title{
+    font-size: 40px;
+    color:white;
+}
+.hot_deal{
+    font-size: 24px;
+    color:#92CEE6;
+
+}
+.landing_token_name{
+    color:white;
+    font-size: 24px;
+}
+.landing_token_item{
+    text-align: center;
+}
+.chart_img{
+    float: right;
+}
+.banner_star_token{
+    margin-bottom:0.1em !important;
+    color:white;
+}
+.star_item_tag{
+    color:#92CEE6;
+    font-weight: bold;
+}
+.unique_role{
+    background-size: cover !important;
+    background-position: center !important;
+}
+.p_color{
+    color:#878787;
+}
+
+/* .swiper {
+    width: 100% ;
+    height: 320px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+     width:320px;
+  
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+   
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px ;
+    height: 300px ;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  .bonus_purcharge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+@media screen and (max-width:992px) {
+    .banner_title{
+        font-size:36px !important;
+    }
+    .bonus_purcharge{
+        scale:0.9;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .bonus_purcharge{
+        scale:0.6;
+    }
+    .banner_title{
+        text-align: center;
+    }
+    .banner_paragraph{
+        text-align: center;
+        margin: auto;
+        width:90%;
+    }
+    .banner_btn{
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+        width: 56%;
+    }
+    .landing_token_image{
+        margin:auto;
+        width:600px !important;
+    }
+    .landing_token_title{
+        font-size: 30px;
+    }
+    .chart_img{
+        float: none;
+        margin:auto;
+    }
+    .swiper{
+        width: 100% !important;
+    }
+    .swiper-slide{
+
+    }
+    .swiper-slide img {
+        scale: 1.5;
+        width: 300px !important;
+        height: 160px;
+      }
+    .nft_airdrop{
+        font-size: 25px;
+    }
+   
+}
+@media screen and (max-width:568px) {
+    .banner_btn{
+        width:100%;
+        margin-left: unset !important;
+        transform: unset !important;
+    }
+    .landing_token_title{
+        font-size: 20px;
+    }
+    
+    
+}

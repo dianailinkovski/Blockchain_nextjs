@@ -1,0 +1,56 @@
+{
+  "main": [
+    {
+      "name": "Activity",
+      "url": "/#"
+    },
+    {
+      "name": "Token",
+      "url": "/#"
+    },
+    {
+      "name": "NFT",
+      "url": "/Nft"
+    }
+    
+  ],
+  "main2": [
+    {
+      "name": "Check-in",
+      "url": "/#"
+    },
+    {
+      "name": "NFT",
+      "url": "/Nft"
+    }
+    
+  ],
+  "footer": [
+    {
+      "name": "Home"
+    },
+    {
+      "name": "Check-in"
+    },
+    {
+      "name": "NFT"
+    },
+    {
+      "name": "Follow Us",
+      "menu": [
+        {
+          "text": "FAQ",
+          "url": "/faq"
+        },
+        {
+          "text": "Privacy Policy",
+          "url": "#"
+        },
+        {
+          "text": "Terms & Conditions",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}

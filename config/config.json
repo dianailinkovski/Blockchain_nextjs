@@ -1,0 +1,41 @@
+{
+  "site": {
+    "title": "Bigspring Light Nextjs",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/image/logo.svg",
+    "logo_width": "100",
+    "logo_height": "48",
+    "logo_text": "Bigspring Light"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Enter DAPP",
+    "link": "/Dapp"
+  },
+  "nav_button2": {
+    "enable": true,
+    "label": "Connect Wallet",
+    "link": "/#"
+  },
+
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "Every decision, every action, may change your destiny. Are you ready to join us, explore this mysterious world together, and find your own power?",
+    "copyright": "@2023 BY STARRAIL"
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "",
+    "meta_description": "A SAAS template for nextjs"
+  }
+}
